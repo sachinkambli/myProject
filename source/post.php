@@ -1,5 +1,5 @@
 <?
-echo "testing cloning on cmd - checking pull";
+echo "change in master";
 session_start();
 if(isset($_SESSION['name'])){
 	$text = $_POST['text'];
