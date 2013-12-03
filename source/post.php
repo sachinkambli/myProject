@@ -1,5 +1,5 @@
 <?
-echo "change in master";
+echo "change in master - pull";
 session_start();
 if(isset($_SESSION['name'])){
 	$text = $_POST['text'];
